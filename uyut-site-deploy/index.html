@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Кафе «Уют» — завтраки, бизнес-ланчи и кофе в Комсомольске-на-Амуре</title>
+  <meta name="description" content="Кафе «Уют» в центре Комсомольска-на-Амуре: завтраки с 8:00, бизнес-ланчи от 390 ₽, кофе и десерты, банкетный зал. Бронь стола по телефону или через форму.">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Кафе «Уют» — Комсомольск-на-Амуре">
+  <meta property="og:description" content="Завтраки с 8:00, бизнес-ланчи от 390 ₽, кофе и банкетный зал в центре города.">
+  <meta property="og:image" content="assets/img/hero.svg">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/fonts/onest.css">
+  <link rel="stylesheet" href="assets/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Кафе «Уют»",
+    "description": "Завтраки, бизнес-ланчи, кофе и банкетный зал в центре Комсомольска-на-Амуре.",
+    "priceRange": "₽₽",
+    "servesCuisine": ["русская", "европейская"],
+    "telephone": "+7-4217-00-00-00",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Кирова, 24",
+      "addressLocality": "Комсомольск-на-Амуре",
+      "addressRegion": "Хабаровский край",
+      "postalCode": "681000",
+      "addressCountry": "RU"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:00", "closes": "22:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday", "Sunday"], "opens": "09:00", "closes": "23:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <!-- Иконки (inline SVG, без эмодзи и внешних библиотек) -->
+  <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+    <symbol id="i-flame" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3c3 3.5 6 6.2 6 9.8A6 6 0 0 1 6 12.8C6 9.2 9 6.5 12 3Z"/>
+      <path d="M12 20.5a2.5 2.5 0 0 1-2.5-2.5c0-1.6 1.2-2.9 2.5-4.4 1.3 1.5 2.5 2.8 2.5 4.4a2.5 2.5 0 0 1-2.5 2.5Z"/>
+    </symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="9"/>
+      <path d="M12 7v5l3 2"/>
+    </symbol>
+    <symbol id="i-seat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="5" y="4" width="14" height="7" rx="2"/>
+      <rect x="3" y="11" width="18" height="6" rx="2"/>
+      <path d="M6 17v3M18 17v3"/>
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 21s-6-5.2-6-10a6 6 0 1 1 12 0c0 4.8-6 10-6 10Z"/>
+      <circle cx="12" cy="11" r="2.5"/>
+    </symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2 2A17.5 17.5 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z"/>
+    </symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="5" width="18" height="14" rx="2"/>
+      <path d="M3.5 7 12 13l8.5-6"/>
+    </symbol>
+    <symbol id="i-star" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.7l5.9-.9Z"/>
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4.5 12.5l5 5 10-11"/>
+    </symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 19V5M6 11l6-6 6 6"/>
+    </symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 12h14M13 6l6 6-6 6"/>
+    </symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Кафе «Уют» — на главную">
+        <span class="brand__name">Уют</span>
+        <span class="brand__sub">кафе<span class="brand__sub-city"> · Комсомольск-на-Амуре</span></span>
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a class="nav__link" href="#menu">Меню</a>
+        <a class="nav__link" href="#why">Почему мы</a>
+        <a class="nav__link" href="#photos">Фото</a>
+        <a class="nav__link" href="#reviews">Отзывы</a>
+        <a class="nav__link" href="#contacts">Как добраться</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- ЗАГЛУШКА: заменить телефон на реальный -->
+        <a class="header-phone" href="tel:+74217000000" aria-label="Позвонить: +7 (4217) 00-00-00">
+          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span>+7 (4217) 00-00-00</span>
+        </a>
+        <a class="btn btn--primary btn--sm" href="#booking">Записаться</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- ================= Первый экран ================= -->
+    <section class="hero" id="top">
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__content">
+            <p class="hero__eyebrow">Кафе в центре Комсомольска-на-Амуре</p>
+            <h1 class="hero__title">Завтраки, обеды и кофе, ради которых хочется выйти из дома</h1>
+            <p class="hero__lead">Готовим на своей кухне, без полуфабрикатов. В будни открыты с 8:00 — есть завтраки, бизнес-ланчи и банкетный зал.</p>
+            <p class="hero__price">
+              <strong>Бизнес-ланч от 390 ₽</strong>
+              <span class="hero__dot" aria-hidden="true">·</span>
+              <span>средний чек 450 ₽</span>
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#booking">Записаться</a>
+              <a class="btn btn--ghost" href="#menu">Смотреть меню</a>
+            </div>
+          </div>
+
+          <figure class="hero__media">
+            <!-- ЗАГЛУШКА: заменить на фото интерьера -->
+            <img src="assets/img/hero.svg" alt="Интерьер кафе «Уют»: стол у окна, чашка кофе и подвесная лампа" width="1200" height="900" fetchpriority="high">
+          </figure>
+        </div>
+
+        <ul class="facts">
+          <li class="facts__item">
+            <span class="facts__value">с 8:00</span>
+            <span class="facts__label">в будни, в выходные с 9:00</span>
+          </li>
+          <li class="facts__item">
+            <span class="facts__value">40 мест</span>
+            <span class="facts__label">два зала и детская зона</span>
+          </li>
+          <li class="facts__item">
+            <span class="facts__value">10 минут</span>
+            <span class="facts__label">на бизнес-ланч</span>
+          </li>
+          <li class="facts__item">
+            <span class="facts__value">от 1 500 ₽</span>
+            <span class="facts__label">банкет на человека</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= Меню и цены ================= -->
+    <section class="section" id="menu">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-head__eyebrow">Меню и форматы</p>
+          <h2 class="section-head__title">Что у нас есть и сколько стоит</h2>
+          <p class="section-head__lead">Цены обновлены в ноябре 2026 года. Полное меню — в зале; по запросу пришлём PDF в мессенджере.</p>
+        </div>
+
+        <div class="menu-grid">
+          <div class="menu-group">
+            <div class="menu-group__head">
+              <h3 class="menu-group__title">Завтраки</h3>
+              <p class="menu-group__note">8:00–12:00</p>
+            </div>
+            <ul class="price-list">
+              <li>
+                <span class="price-list__name">Сырники с яблочным соусом</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">290 ₽</span>
+              </li>
+              <li>
+                <span class="price-list__name">Омлет с томатами и зеленью</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">250 ₽</span>
+              </li>
+              <li>
+                <span class="price-list__name">Овсяная каша на молоке</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">210 ₽</span>
+              </li>
+              <li>
+                <span class="price-list__name">Круассан с маслом и джемом</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">150 ₽</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="menu-group">
+            <div class="menu-group__head">
+              <h3 class="menu-group__title">Бизнес-ланчи</h3>
+              <p class="menu-group__note">12:00–16:00</p>
+            </div>
+            <ul class="price-list">
+              <li>
+                <span class="price-list__name">«Быстрый»: салат и горячее</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">390 ₽</span>
+              </li>
+              <li>
+                <span class="price-list__name">«Полный»: салат, суп, горячее</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">450 ₽</span>
+              </li>
+              <li>
+                <span class="price-list__name">«С десертом»: всё и десерт</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">520 ₽</span>
+              </li>
+              <li>
+                <span class="price-list__name">Компот или морс к ланчу</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">80 ₽</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="menu-group">
+            <div class="menu-group__head">
+              <h3 class="menu-group__title">Кофе и десерты</h3>
+              <p class="menu-group__note">весь день</p>
+            </div>
+            <ul class="price-list">
+              <li>
+                <span class="price-list__name">Капучино</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">180 ₽</span>
+              </li>
+              <li>
+                <span class="price-list__name">Флэт уайт</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">200 ₽</span>
+              </li>
+              <li>
+                <span class="price-list__name">Чизкейк</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">260 ₽</span>
+              </li>
+              <li>
+                <span class="price-list__name">Медовик</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">240 ₽</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="menu-group">
+            <div class="menu-group__head">
+              <h3 class="menu-group__title">Банкеты и мероприятия</h3>
+              <p class="menu-group__note">по записи</p>
+            </div>
+            <ul class="price-list">
+              <li>
+                <span class="price-list__name">Банкетное меню</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">от 1 500 ₽ / чел.</span>
+              </li>
+              <li>
+                <span class="price-list__name">Аренда зала</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">от 3 000 ₽ / час</span>
+              </li>
+              <li>
+                <span class="price-list__name">Кофе-брейк для группы</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">от 350 ₽ / чел.</span>
+              </li>
+              <li>
+                <span class="price-list__name">Детский день рождения</span>
+                <span class="price-list__dots" aria-hidden="true"></span>
+                <span class="price-list__value">от 900 ₽ / чел.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Почему мы ================= -->
+    <section class="section section--surface" id="why">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-head__eyebrow">Почему мы</p>
+          <h2 class="section-head__title">Три вещи, за которые к нам возвращаются</h2>
+        </div>
+
+        <ul class="features">
+          <li class="feature">
+            <span class="feature__icon"><svg class="icon" aria-hidden="true"><use href="#i-flame"/></svg></span>
+            <h3 class="feature__title">Готовим сами</h3>
+            <p class="feature__text">Своя кухня и хлеб каждое утро. Никаких полуфабрикатов и разогрева в микроволновке.</p>
+          </li>
+          <li class="feature">
+            <span class="feature__icon"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg></span>
+            <h3 class="feature__title">Обед за 10 минут</h3>
+            <p class="feature__text">Бизнес-ланч собираем до вашего прихода, чтобы вы успели поесть и вернуться на работу.</p>
+          </li>
+          <li class="feature">
+            <span class="feature__icon"><svg class="icon" aria-hidden="true"><use href="#i-seat"/></svg></span>
+            <h3 class="feature__title">Есть где сесть</h3>
+            <p class="feature__text">40 мест, два зала и детская зона. Можно с ноутбуком, можно с семьёй.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= Фото ================= -->
+    <section class="section" id="photos">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-head__eyebrow">Фото</p>
+          <h2 class="section-head__title">Как у нас выглядит</h2>
+          <p class="section-head__lead">Здесь будут фотографии зала, блюд и кухни. Пока — демонстрационные иллюстрации.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery__item">
+            <!-- ЗАГЛУШКА: фото завтраков -->
+            <img src="assets/img/breakfast.svg" alt="Завтрак: сырники со сметаной и ягодами" width="800" height="600">
+            <figcaption>Завтраки</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <!-- ЗАГЛУШКА: фото кофе -->
+            <img src="assets/img/coffee.svg" alt="Чашка кофе на блюдце" width="800" height="600">
+            <figcaption>Кофе</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <!-- ЗАГЛУШКА: фото зала -->
+            <img src="assets/img/hall.svg" alt="Зал кафе: окна, столы и подвесные лампы" width="800" height="600">
+            <figcaption>Зал</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <!-- ЗАГЛУШКА: фото бизнес-ланча -->
+            <img src="assets/img/lunch.svg" alt="Бизнес-ланч: суп и хлеб" width="800" height="600">
+            <figcaption>Бизнес-ланч</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <!-- ЗАГЛУШКА: фото десертов -->
+            <img src="assets/img/dessert.svg" alt="Кусок торта на тарелке" width="800" height="600">
+            <figcaption>Десерты</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <!-- ЗАГЛУШКА: фото банкетного зала -->
+            <img src="assets/img/banquet.svg" alt="Банкетный стол с приборами" width="800" height="600">
+            <figcaption>Банкеты</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Отзывы ================= -->
+    <section class="section section--surface" id="reviews">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-head__eyebrow">Отзывы</p>
+          <h2 class="section-head__title">Что говорят гости</h2>
+        </div>
+
+        <ul class="reviews">
+          <li class="review">
+            <span class="review__badge">пример</span>
+            <div class="review__stars" role="img" aria-label="Оценка 5 из 5">
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+            </div>
+            <p class="review__text">«Забежали на завтрак перед работой: сырники, капучино и тишина. Понравилось, что не торопят и не включают громкую музыку».</p>
+            <div class="review__meta">
+              <span class="review__name">Анна</span>
+              <span class="review__date">12 ноября 2026</span>
+            </div>
+          </li>
+          <li class="review">
+            <span class="review__badge">пример</span>
+            <div class="review__stars" role="img" aria-label="Оценка 5 из 5">
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+            </div>
+            <p class="review__text">«Бизнес-ланч принесли за семь минут, порции честные. Для обеденного перерыва — то, что нужно».</p>
+            <div class="review__meta">
+              <span class="review__name">Дмитрий</span>
+              <span class="review__date">3 ноября 2026</span>
+            </div>
+          </li>
+          <li class="review">
+            <span class="review__badge">пример</span>
+            <div class="review__stars" role="img" aria-label="Оценка 5 из 5">
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+              <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>
+            </div>
+            <p class="review__text">«Отмечали день рождения в банкетном зале на 18 человек. Помогли с меню, обслуживали спокойно и без суеты».</p>
+            <div class="review__meta">
+              <span class="review__name">Марина</span>
+              <span class="review__date">27 октября 2026</span>
+            </div>
+          </li>
+        </ul>
+
+        <p class="reviews__note">Отзывы выше — примеры для демонстрации. Заменим на реальные с Яндекс.Карт и 2ГИС.</p>
+      </div>
+    </section>
+
+    <!-- ================= Как добраться ================= -->
+    <section class="section" id="contacts">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-head__eyebrow">Как добраться</p>
+          <h2 class="section-head__title">Мы в центре, рядом с площадью Ленина</h2>
+        </div>
+
+        <div class="location">
+          <div class="location__info">
+            <ul class="contact-list">
+              <li>
+                <svg class="icon contact-list__icon" aria-hidden="true"><use href="#i-pin"/></svg>
+                <div class="contact-list__body">
+                  <!-- ЗАГЛУШКА: реальный адрес -->
+                  <span class="contact-list__title">Адрес</span>
+                  <span class="contact-list__value">Комсомольск-на-Амуре, ул. Кирова, 24</span>
+                  <span class="contact-list__note">Вход с торца дома, вывеска «Уют»</span>
+                </div>
+              </li>
+              <li>
+                <svg class="icon contact-list__icon" aria-hidden="true"><use href="#i-clock"/></svg>
+                <div class="contact-list__body">
+                  <span class="contact-list__title">Часы работы</span>
+                  <span class="contact-list__value">Пн–Пт 8:00–22:00</span>
+                  <span class="contact-list__value">Сб–Вс 9:00–23:00</span>
+                </div>
+              </li>
+              <li>
+                <svg class="icon contact-list__icon" aria-hidden="true"><use href="#i-phone"/></svg>
+                <div class="contact-list__body">
+                  <span class="contact-list__title">Телефон</span>
+                  <!-- ЗАГЛУШКА: реальный телефон -->
+                  <a class="contact-list__value" href="tel:+74217000000">+7 (4217) 00-00-00</a>
+                  <span class="contact-list__note">Отвечаем и в мессенджерах</span>
+                </div>
+              </li>
+              <li>
+                <svg class="icon contact-list__icon" aria-hidden="true"><use href="#i-mail"/></svg>
+                <div class="contact-list__body">
+                  <span class="contact-list__title">Почта</span>
+                  <!-- ЗАГЛУШКА: реальная почта -->
+                  <a class="contact-list__value" href="mailto:hello@uyut-kms.ru">hello@uyut-kms.ru</a>
+                </div>
+              </li>
+            </ul>
+
+            <div class="location__actions">
+              <!-- ЗАГЛУШКА: ссылка на реальную точку на карте -->
+              <a class="btn btn--ghost" href="https://yandex.ru/maps/?text=%D0%9A%D0%BE%D0%BC%D1%81%D0%BE%D0%BC%D0%BE%D0%BB%D1%8C%D1%81%D0%BA-%D0%BD%D0%B0-%D0%90%D0%BC%D1%83%D1%80%D0%B5%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%9A%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%2C%2024" target="_blank" rel="noopener">
+                Открыть в Яндекс.Картах
+                <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <figure class="location__map">
+            <!-- ЗАГЛУШКА: заменить на настоящую карту или фото фасада -->
+            <img src="assets/img/map.svg" alt="Схема: кафе отмечено меткой на карте" width="800" height="600">
+            <figcaption>5 минут пешком от площади Ленина. Парковка у входа.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Форма записи ================= -->
+    <section class="section section--surface" id="booking">
+      <div class="container booking__grid">
+        <div class="booking__intro">
+          <div class="section-head">
+            <p class="section-head__eyebrow">Запись</p>
+            <h2 class="section-head__title">Забронировать стол</h2>
+            <p class="section-head__lead">Оставьте имя и телефон — перезвоним в течение 15 минут в рабочее время и подтвердим бронь.</p>
+          </div>
+          <p class="booking__note">Без брони — тоже можно: завтраки и бизнес-ланчи подаём каждый день.</p>
+        </div>
+
+        <div class="booking__card">
+          <form class="booking__form" id="booking-form" novalidate>
+            <div class="field">
+              <label class="field__label" for="name">Имя</label>
+              <input class="field__input" id="name" name="name" type="text" autocomplete="name" placeholder="Как к вам обращаться" required aria-required="true" aria-describedby="name-error">
+              <p class="field__error" id="name-error" role="alert" hidden></p>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="phone">Телефон</label>
+              <input class="field__input" id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7 (___) ___-__-__" required aria-required="true" aria-describedby="phone-error">
+              <p class="field__error" id="phone-error" role="alert" hidden></p>
+            </div>
+
+            <div class="consent">
+              <!-- ЗАГЛУШКА: ссылка должна вести на реальную страницу политики конфиденциальности -->
+              <input id="consent" name="consent" type="checkbox" required aria-required="true" aria-describedby="consent-error">
+              <label for="consent">Согласен на обработку персональных данных и принимаю условия <a href="#top">политики конфиденциальности</a>.</label>
+            </div>
+            <p class="consent__error" id="consent-error" role="alert" hidden></p>
+
+            <button class="btn btn--primary btn--block" type="submit">Записаться</button>
+            <p class="form-hint">Звонок только по брони — никакого спама.</p>
+          </form>
+
+          <div class="form-success" id="booking-success" hidden tabindex="-1" role="status">
+            <span class="form-success__icon"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span>
+            <h3 class="form-success__title">Заявка принята</h3>
+            <p class="form-success__text" id="booking-success-text">Перезвоним в течение 15 минут в рабочее время.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer__brand">
+        <p class="footer__logo">Уют</p>
+        <p class="footer__tagline">Кафе в центре Комсомольска-на-Амуре. Завтраки, бизнес-ланчи, кофе и банкетный зал.</p>
+      </div>
+
+      <div class="footer__col">
+        <p class="footer__title">Контакты</p>
+        <ul class="footer__list">
+          <!-- ЗАГЛУШКА: реальные контакты -->
+          <li><a href="tel:+74217000000">+7 (4217) 00-00-00</a></li>
+          <li><a href="mailto:hello@uyut-kms.ru">hello@uyut-kms.ru</a></li>
+          <li>Комсомольск-на-Амуре,<br>ул. Кирова, 24</li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <p class="footer__title">Часы работы</p>
+        <ul class="footer__list">
+          <li>Пн–Пт: 8:00–22:00</li>
+          <li>Сб–Вс: 9:00–23:00</li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <p class="footer__title">Соцсети</p>
+        <ul class="footer__list">
+          <!-- ЗАГЛУШКА: реальные ссылки -->
+          <li><a href="#top">ВКонтакте</a></li>
+          <li><a href="#top">Telegram</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> Кафе «Уют»</p>
+      <div class="footer__bottom-links">
+        <a href="#top">Политика конфиденциальности</a>
+        <a class="to-top" href="#top">Наверх <svg class="icon" aria-hidden="true"><use href="#i-arrow-up"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>

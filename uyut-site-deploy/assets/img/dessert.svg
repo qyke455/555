@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Кусок торта на тарелке" preserveAspectRatio="xMidYMid slice">
+
+<rect width="800" height="600" fill="#F1E7D8"/>
+<rect y="420" width="800" height="180" fill="#E5D4BF"/>
+<ellipse cx="400" cy="500" rx="220" ry="54" fill="rgba(23,20,15,0.06)"/>
+
+<!-- plate -->
+<ellipse cx="400" cy="454" rx="222" ry="70" fill="#FBF7F1"/>
+
+<!-- cake slice: three layers -->
+<path d="M286 424 L514 424 L492 388 L308 388 Z" fill="#C98C4E"/>
+<path d="M308 388 L492 388 L470 340 L330 340 Z" fill="#F3E7D6"/>
+<path d="M330 340 L470 340 L452 292 L348 292 Z" fill="#8C6A4F"/>
+<path d="M348 292 L452 292 L452 282 Q400 262 348 282 Z" fill="#FBF7F1"/>
+
+<!-- berry + mint-ish leaf in accent-free brown -->
+<circle cx="400" cy="276" r="16" fill="#B23A27"/>
+<ellipse cx="418" cy="264" rx="12" ry="6" fill="#8C6A4F" transform="rotate(-30 418 264)"/>
+
+<!-- fork -->
+<rect x="612" y="300" width="16" height="180" rx="8" fill="#8C6A4F"/>
+<rect x="600" y="300" width="8" height="54" rx="4" fill="#8C6A4F"/>
+<rect x="616" y="300" width="8" height="54" rx="4" fill="#8C6A4F"/>
+<rect x="632" y="300" width="8" height="54" rx="4" fill="#8C6A4F"/>
+
+</svg>

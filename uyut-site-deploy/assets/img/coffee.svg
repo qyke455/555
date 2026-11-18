@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Чашка кофе на блюдце" preserveAspectRatio="xMidYMid slice">
+
+<rect width="800" height="600" fill="#F7F1E8"/>
+<rect y="430" width="800" height="170" fill="#E7D9C6"/>
+<ellipse cx="400" cy="456" rx="230" ry="34" fill="rgba(23,20,15,0.06)"/>
+
+<!-- saucer -->
+<ellipse cx="400" cy="430" rx="200" ry="58" fill="#FBF7F1"/>
+<ellipse cx="400" cy="424" rx="152" ry="40" fill="#F2E9DC"/>
+
+<!-- cup -->
+<path d="M300 250 L500 250 L474 400 Q400 438 326 400 Z" fill="#FBF7F1"/>
+<ellipse cx="400" cy="252" rx="100" ry="26" fill="#6E4A32"/>
+<ellipse cx="400" cy="250" rx="86" ry="20" fill="#8C5E3F"/>
+<path d="M496 282 q56 12 24 66 q-10 18 -30 12" fill="none" stroke="#FBF7F1" stroke-width="22" stroke-linecap="round"/>
+
+<!-- steam -->
+<path d="M356 210 q-18 -22 0 -44 q18 -22 0 -44" fill="none" stroke="#DCC9B2" stroke-width="7" stroke-linecap="round"/>
+<path d="M400 196 q-18 -22 0 -44 q18 -22 0 -44" fill="none" stroke="#DCC9B2" stroke-width="7" stroke-linecap="round"/>
+<path d="M444 210 q-18 -22 0 -44 q18 -22 0 -44" fill="none" stroke="#DCC9B2" stroke-width="7" stroke-linecap="round"/>
+
+<!-- spoon -->
+<line x1="596" y1="330" x2="686" y2="430" stroke="#8C6A4F" stroke-width="9" stroke-linecap="round"/>
+<ellipse cx="592" cy="326" rx="24" ry="15" fill="#8C6A4F" transform="rotate(-40 592 326)"/>
+
+<!-- beans -->
+<ellipse cx="196" cy="382" rx="20" ry="14" fill="#6E4A32" transform="rotate(-16 196 382)"/>
+<ellipse cx="236" cy="404" rx="18" ry="13" fill="#6E4A32" transform="rotate(12 236 404)"/>
+
+</svg>

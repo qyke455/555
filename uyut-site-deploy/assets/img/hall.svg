@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Зал кафе: окна, столы и лампы" preserveAspectRatio="xMidYMid slice">
+
+<rect width="800" height="600" fill="#E7D9C7"/>
+<rect y="470" width="800" height="130" fill="#DCCBB4"/>
+
+<!-- windows -->
+<rect x="70" y="90" width="180" height="330" rx="16" fill="#FBF7F1"/>
+<rect x="286" y="90" width="180" height="330" rx="16" fill="#FBF7F1"/>
+<line x1="160" y1="96" x2="160" y2="414" stroke="#E7D9C5" stroke-width="6"/>
+<line x1="376" y1="96" x2="376" y2="414" stroke="#E7D9C5" stroke-width="6"/>
+
+<!-- pendant lamps -->
+<line x1="590" y1="0" x2="590" y2="140" stroke="#5E4632" stroke-width="4"/>
+<path d="M548 140 L632 140 L616 186 L564 186 Z" fill="#B23A27"/>
+<line x1="700" y1="0" x2="700" y2="196" stroke="#5E4632" stroke-width="4"/>
+<path d="M658 196 L742 196 L726 242 L674 242 Z" fill="#B23A27"/>
+
+<!-- table and chairs -->
+<rect x="240" y="430" width="360" height="22" rx="11" fill="#8C6A4F"/>
+<rect x="276" y="452" width="16" height="130" rx="8" fill="#7A5A41"/>
+<rect x="548" y="452" width="16" height="130" rx="8" fill="#7A5A41"/>
+<rect x="180" y="350" width="90" height="110" rx="14" fill="#D9C3A9"/>
+<rect x="620" y="350" width="90" height="110" rx="14" fill="#D9C3A9"/>
+<ellipse cx="420" cy="456" rx="200" ry="16" fill="rgba(23,20,15,0.06)"/>
+
+<!-- cup on the table -->
+<ellipse cx="420" cy="428" rx="34" ry="8" fill="#FBF7F1"/>
+<rect x="402" y="392" width="36" height="34" rx="10" fill="#FBF7F1"/>
+
+</svg>

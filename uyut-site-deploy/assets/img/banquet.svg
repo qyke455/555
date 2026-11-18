@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Банкетный стол с приборами" preserveAspectRatio="xMidYMid slice">
+
+<rect width="800" height="600" fill="#EFE4D4"/>
+<rect y="430" width="800" height="170" fill="#E2D2BD"/>
+
+<!-- lamps -->
+<line x1="250" y1="0" x2="250" y2="120" stroke="#5E4632" stroke-width="4"/>
+<path d="M212 120 L288 120 L275 158 L225 158 Z" fill="#B23A27"/>
+<line x1="550" y1="0" x2="550" y2="90" stroke="#5E4632" stroke-width="4"/>
+<path d="M512 90 L588 90 L575 128 L525 128 Z" fill="#B23A27"/>
+
+<!-- chairs behind -->
+<path d="M120 360 q0 -50 44 -50 q44 0 44 50 Z" fill="#B79A7B"/>
+<path d="M592 360 q0 -50 44 -50 q44 0 44 50 Z" fill="#B79A7B"/>
+
+<!-- long table -->
+<rect x="90" y="390" width="620" height="34" rx="17" fill="#8C6A4F"/>
+<rect x="90" y="424" width="620" height="120" rx="10" fill="#FBF7F1"/>
+<rect x="90" y="424" width="620" height="14" fill="#B23A27" opacity="0.85"/>
+
+<!-- table setting -->
+<ellipse cx="220" cy="470" rx="38" ry="10" fill="#E9DDCB"/>
+<ellipse cx="400" cy="470" rx="38" ry="10" fill="#E9DDCB"/>
+<ellipse cx="580" cy="470" rx="38" ry="10" fill="#E9DDCB"/>
+<path d="M400 470 l-14 -46 q14 -14 28 0 Z" fill="#8C6A4F"/>
+<line x1="400" y1="424" x2="400" y2="404" stroke="#8C6A4F" stroke-width="6"/>
+<ellipse cx="400" cy="400" rx="10" ry="6" fill="#E9C89A"/>
+
+<!-- napkin -->
+<path d="M470 500 L520 500 L508 546 L482 546 Z" fill="#B23A27" opacity="0.85"/>
+
+</svg>

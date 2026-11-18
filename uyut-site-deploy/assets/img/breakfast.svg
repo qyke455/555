@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Завтрак: сырники со сметаной и ягодами" preserveAspectRatio="xMidYMid slice">
+
+<rect width="800" height="600" fill="#F4ECE0"/>
+<rect y="380" width="800" height="220" fill="#E3D2BC"/>
+<ellipse cx="400" cy="470" rx="250" ry="80" fill="rgba(23,20,15,0.06)"/>
+
+<!-- plate -->
+<ellipse cx="400" cy="420" rx="248" ry="118" fill="#FBF7F1"/>
+<ellipse cx="400" cy="414" rx="214" ry="98" fill="#F6EFE4"/>
+
+<!-- syrniki -->
+<circle cx="318" cy="404" r="56" fill="#C98C4E"/>
+<ellipse cx="318" cy="392" rx="52" ry="40" fill="#DCA264"/>
+<circle cx="402" cy="424" r="58" fill="#C98C4E"/>
+<ellipse cx="402" cy="412" rx="54" ry="41" fill="#DCA264"/>
+<circle cx="486" cy="400" r="54" fill="#C98C4E"/>
+<ellipse cx="486" cy="388" rx="50" ry="38" fill="#DCA264"/>
+
+<!-- sour cream dollop -->
+<path d="M382 384 q20 -26 40 0 q10 18 -20 20 q-30 -2 -20 -20 Z" fill="#FBF7F1"/>
+
+<!-- berries -->
+<circle cx="352" cy="352" r="13" fill="#B23A27"/>
+<circle cx="382" cy="340" r="11" fill="#B23A27"/>
+<circle cx="430" cy="350" r="12" fill="#B23A27"/>
+<circle cx="462" cy="368" r="10" fill="#B23A27"/>
+
+<!-- fork -->
+<rect x="92" y="330" width="16" height="170" rx="8" fill="#8C6A4F"/>
+<rect x="80" y="330" width="8" height="52" rx="4" fill="#8C6A4F"/>
+<rect x="96" y="330" width="8" height="52" rx="4" fill="#8C6A4F"/>
+<rect x="112" y="330" width="8" height="52" rx="4" fill="#8C6A4F"/>
+
+<!-- cup of coffee, top right -->
+<ellipse cx="676" cy="352" rx="58" ry="14" fill="#FBF7F1"/>
+<rect x="642" y="286" width="68" height="62" rx="16" fill="#FBF7F1"/>
+<ellipse cx="676" cy="292" rx="26" ry="8" fill="#6E4A32"/>
+
+</svg>
